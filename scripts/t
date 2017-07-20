@@ -3,5 +3,5 @@
 
 set -eu
 
-torus run -s "$TORUS_SERVICE" -e "$TORUS_ENV" -- $@
+torus run -s "$TORUS_SERVICE" -e "$TORUS_ENV" $@
 
